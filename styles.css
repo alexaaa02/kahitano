@@ -100,50 +100,36 @@ body{
 	color: #fff;
 }
 
-.skills ul,
-.hobbies ul{
-	display: flex;
-	flex-wrap: wrap;
-	justify-content: space-between;
+.resume_skills ul li {
+  display: flex;
+  margin-bottom: 10px;
+  color: #000000;
+  justify-content: space-between;
+  align-items: center;
 }
 
-.skills .li_wrap,
-.hobbies .li_wrap{
-	width: 100px;
-	height: 100px;
-	margin-bottom: 15px;
-	border-radius: 15px;
-	display: flex;
-	flex-direction: column;
-	align-items: center;
-	justify-content: center;
+.resume_skills ul li .skill_name {
+  width: 25%;
 }
 
-.skills .li_wrap{
-	background: #fff;
+.resume_skills ul li .skill_progress {
+  width: 60%;
+  margin: 0 5px;
+  height: 5px;
+  background: #009fd9;
+  position: relative;
 }
 
-.skills .li_wrap .text,
-.hobbies .li_wrap .text{
-	margin-top: 5px;
+.resume_skills ul li .skill_per {
+  width: 15%;
 }
 
-.hobbies .li_wrap{
-	border: 2px solid #fff;
-}
-
-.hobbies .li_wrap .icon,
-.hobbies .li_wrap .text{
-	color: #fff;
-}
-
-.hobbies .li_wrap:hover{
-	background: #fff;
-}
-
-.hobbies .li_wrap:hover .icon,
-.hobbies .li_wrap:hover .text{
-	color: #9153c9;
+.resume_skills ul li .skill_progress span {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  background: #fff;
 }
 
 .header{
